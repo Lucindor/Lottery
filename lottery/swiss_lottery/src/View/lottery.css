@@ -1,0 +1,95 @@
+.gameArea{
+    /** -fx-background-color: #7596ce;  */
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-padding: 10;
+}
+
+.numbers{
+    -fx-background-color: pink;
+    -fx-width: 50;
+    -fx-pref-width: 50;
+    -fx-min-height: 50;
+    -fx-pref-height: 50;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.numbers:hover{
+    -fx-background-color: #2a5eb7;
+}
+
+.luckyNumbers{
+
+    -fx-background-color: yellow;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5em;
+    -fx-min-width: 50;
+    -fx-min-height: 50;
+    -fx-max-width: 50;
+    -fx-max-height: 50;
+    -fx-background-insets: 0px;
+    -fx-padding: 0px;
+}
+
+.tipLabel{
+
+    -fx-border-radius: 5px;
+    -fx-background-radius: 7px;
+    -fx-background-color: pink;
+    -fx-width: 30;
+    -fx-pref-width: 30;
+    -fx-min-height: 30;
+    -fx-pref-height: 30;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+.tipLuckyNumber{
+    -fx-border-radius: 5px;
+    -fx-background-radius: 7px;
+
+    -fx-width: 30;
+    -fx-pref-width: 30;
+    -fx-min-height: 30;
+    -fx-pref-height: 30;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-background-color: yellow;
+    -fx-background-insets: 0px;
+    -fx-padding: 0px;
+}
+.ticketListArea{
+    -fx-background-color: gray;
+    -fx-min-width: 300;
+    -fx-padding: 10;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+}
+.spacerBottomArea{
+    -fx-min-height: 90;
+}
+.bottomArea{
+    -fx-min-height: 120;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+}
+.ball{
+    -fx-border-radius: 30;
+
+    -fx-background-color: orange;
+}
+.root{
+    -fx-background-color: dimgray;
+}
+.tip{
+    -fx-padding: 2;
+}
+.deleteBtn {
+}
+
+.informationArea{
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-min-width: 100;
+}
